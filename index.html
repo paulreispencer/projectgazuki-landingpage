@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <title>Gazukiガズキ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=BBH+Sans+Bartle&family=Bentham&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fredericka+the+Great&family=Hina+Mincho&family=Jacquard+12&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- First Viewport -->
+    <div id="homeView">
+        <div id="introVideo">
+            <video id="videoActual" src="/asset/introVid.mp4" autoplay muted playsinline></video>
+        </div>
+
+        <div class="texting">
+            <div class="topView">
+                <h1 class="artviewH1" id="artH1">GROUP<span class="groupH1">4</span></h1>
+                <h1 class="biggaz" id="topga">ガズ</h1>
+            </div>
+            <div class="bottomView">
+                <h1 class="biggaz" id="bottomga">ズキ</h1>
+            </div>
+        </div>
+
+        <div class="helloImage">
+            <img id="logoActual" src="/asset/logo.png" alt="">
+        </div>
+    </div>
+
+    <!-- Main Contents -->
+    <main>
+        <section id="sectionSlogan">
+            <div class="sloganSection">
+                <h1 id="sectionH1">One <span class="boldH1">Bite</span>. <br>Pure <span class="boldH1">Delight</span>.</h1>
+                <p id="sectionP">Gazuki serves a wide variety of delightful Japanese cuisine, offering authentic dishes such as <span class="boldP">freshly prepared sushi, savory takoyaki</span>, and other traditional favorites that capture the rich and flavorful essence of Japan’s culinary culture.</p>
+            </div>
+        </section>
+
+        <section id="sectionBento">
+            <div id="bento1" class="bentoGrid"></div>
+            <div id="bento2" class="bentoGrid">Seafood<br>on Rice</div>
+            <div id="bento3" class="bentoGrid"></div>
+            <div id="bento4" class="bentoGrid">Tokyo<br>Style</div>
+            <div id="bento5" class="bentoGrid">Osaka<br>Style
+            </div>
+            <div id="bento6" class="bentoGrid"></div>
+            <div id="bento7" class="bentoGrid">Seaweed on<br>the Outside</div>
+            <div id="bento8" class="bentoGrid"></div>
+        </section>
+
+        <div class="sakuraBlossom"></div>
+
+        <section id="sectionSlogan" class="onthego">
+            <div class="sloganSection">
+                <h1 id="sectionH1">Oh, on the go?</h1>
+                <p id="sectionP">We’ve got you covered. Whether you’re caught up in a day of nonstop productivity or simply craving the comfort of your own space; be it your home, your car, or even your cozy bedroom; <span class="boldP">you can choose to take your meal with you</span>. Because no matter where you are, or who you’re with, the warmth of a good meal will always find its way to you.</p>
+            </div>
+        </section>
+        
+        <div id="buttones">
+            <div class="centralBee">
+                <button class="buttonCarousel" id="prev"><span class="material-symbols-outlined arrowsN">arrow_back_ios_new</span></button>
+                <button class="buttonCarousel" id="next"><span class="material-symbols-outlined arrowsN">arrow_forward_ios</span></button>
+            </div>
+        </div>
+        <div class="carouselContain">
+            <div id="carousel">
+                <img id="firstOther" src="/otherAssets/hel1.png" alt="" class="others">
+                <img id="secondOther" src="/otherAssets/other1.png" alt="" class="others">
+                <img id="thirdOther" src="/otherAssets/hel3.png" alt="" class="others">
+            </div>
+        </div>
+
+        <section id="sectionSlogan">
+            <div class="sloganSection">
+                <h1 id="sectionH1">Partnerships. <br><span id="gradientFilm">Better Together</span>.</h1>
+                <p id="sectionP">We’d be honored to partner with <span class="boldP">Hanako Japanese Restaurant</span>, a place that captures hearts through every bowl and every review. Its warmth, authenticity, and nearby location make it more than just a restaurant; it’s a community favorite that brings people together through the comfort of Japanese flavors. <br><br>We also hope to collaborate with <span class="boldP">Century Pacific Food Inc.</span>, whose brands like Century Tuna have long been trusted staples in Filipino homes. Their commitment to quality and nourishment reflects the very values we stand for, bringing people closer through food that inspires and sustains.</p>
+            </div>
+        </section>
+
+        <div class="witchContain">
+            <div class="floatingWitch">
+                <img src="/asset/image1.png" alt="" class="witches">
+                <img src="/asset/image3.png" alt="" class="witches twitch">
+                <img src="/asset/sushiPro.jpeg" alt="" class="witches">
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="list">
+            <div class="conT">
+                <h1 id="listH1">Contact Email</h1>
+                <p id="listP">ap.firstname.surname@apecschools.edu.ph</p>
+            </div>
+            <div class="conT">
+                <h1 id="listH1">Copyright</h1>
+                <p id="listP">© 2025 Gazukiガズキ Corp. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="imageCon">
+            <img id="footerLogo" src="/asset/logo.png" alt="">
+        </div>
+        <div class="address">
+            <h1 id="addressH1">Gazukiガズキ</h1>
+            <p id="addressP">1500 Macaron Ave NJ<br>Ulliven 20019</p>
+        </div>
+    </footer>
+</body>
+</html>
